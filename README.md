@@ -1,4 +1,4 @@
-# word-count-tracker
+# word-total-tracker
 Track how much words you've written every day. The program calculates the difference of your daily word totals and saves it to a database.
 
 ## Usage
