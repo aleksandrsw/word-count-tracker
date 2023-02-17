@@ -7,11 +7,11 @@ The program can also be run in a Python interpreter:
 
 ```
 $ pip install platformdirs
-$ python WordCountTracker.py
+$ python WordTotalTracker.py
 ```
 
 In order to compile into an executable, do:
 ```
 $ pip install pyinstaller
-$ pyinstaller --onefile WordCountTracker.py
+$ pyinstaller --onefile WordTotalTracker.py
 ```
