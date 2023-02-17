@@ -33,9 +33,19 @@ while repeat:
       try:
         answer = input("Do you wish to reset your progress? (Y/N)\n")
         if answer.strip().capitalize() == 'Y':
-          first_time = True
-          os.remove(appdata + "/wc_totals.csv")
-          flag = False
+          flag2 = True
+          print()
+          while flag2:
+            answer2 = input("Are you sure? (Y/N)\n")
+            if answer2.strip().capitalize() == 'Y':
+              first_time = True
+              os.remove(appdata + "/wc_totals.csv")
+              flag = False
+              flag2 = False
+            elif answer2.strip().capitalize() == 'N':
+              flag = False
+              flag2 = False
+            else: print("\nPlease try again.\n")
         elif answer.strip().capitalize() == 'N':
           flag = False
         else: raise InvalidChoiceException
