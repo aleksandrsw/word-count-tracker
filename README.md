@@ -13,5 +13,5 @@ $ python word_count_tracker.py
 In order to compile into an executable, do:
 ```
 $ pip install pyinstaller
-$ pyinstall --onefile word_count_tracker.py
+$ pyinstaller --onefile word_count_tracker.py
 ```
