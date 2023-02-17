@@ -15,5 +15,3 @@ In order to compile into an executable, do:
 $ pip install pyinstaller
 $ pyinstall --onefile word_count_tracker.py
 ```
-
-**Warning:** Do not exit the program prematurely if you have entered your word totals. This may cause you to lose your data.
