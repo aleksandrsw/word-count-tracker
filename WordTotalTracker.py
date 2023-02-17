@@ -81,7 +81,7 @@ while repeat:
           flag = False
         elif answer.strip().capitalize() == 'N':
           flag2 = True
-          while flag:
+          while flag2:
             try:
               print("\nEnter the word total today.")
               total = int(input())
